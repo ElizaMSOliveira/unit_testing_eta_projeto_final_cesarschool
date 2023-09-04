@@ -27,8 +27,6 @@ class Test_ice_crean:
         resultado = ice_crean.find_flavor("Flocos")
         assert resultado == resultado_esperado
 
-        # REFAZER ESSE TESTE
-
     def test_find_flavor_failed(self):  # PARA FAZER ESSSE TESTE RETIREI OS ITENS DA LISTA
         ice_crean = IceCreamStand("Casa de Taipa", "Nordestina")
         resultado_esperado = "Estamos sem estoque atualmente!"
